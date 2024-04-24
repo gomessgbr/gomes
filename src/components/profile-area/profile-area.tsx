@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { Button } from "../ui/button";
-
 import profileImage from "../../assets/profileImage.png";
 
 export function ProfileArea() {
@@ -37,9 +35,11 @@ export function ProfileArea() {
       <div>
         <Image
           alt="profile image"
-          width={400}
-          height={400}
+          width={420}
+          height={420}
           src={profileImage}
+          quality={100}
+          priority={true}
         />
       </div>
     </div>
