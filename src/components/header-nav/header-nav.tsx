@@ -5,13 +5,13 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { ToggleThemeMode } from "@/components";
 
-export function Dashboard() {
+export function HeaderNav() {
   return (
-    <div className="flex min-h-screen w-full flex-col">
+    <div className="flex w-full flex-col">
       <header className="sticky top-0 flex h-16 items-center justify-between gap-4 border-b bg-background px-6 md:px-2 md:gap-0">
         <div className="text-muted-foreground transition-colors cursor-pointer hover:text-foreground">
           <Link href="/" className="text-lg font-semibold">
-            Gabriel Gomes
+            GomesDev
           </Link>
         </div>
         <div className="flex items-center gap-4">

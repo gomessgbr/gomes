@@ -1,10 +1,10 @@
-import { Dashboard } from "@/components";
+import { AboutMe, HeaderNav } from "@/components";
 
 export default function Home() {
   return (
     <>
-      <Dashboard />
-      <div>Hello Gabriel</div>
+      <HeaderNav />
+      <AboutMe />
     </>
   );
 }
