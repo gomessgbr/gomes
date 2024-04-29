@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { AboutMe } from "../about-me/about-me";
 
-import profileImage from "../../assets/profileImage.png";
+import profileImage from "../../assets/icons/profileImage.png";
 
 export function ProfileArea() {
   return (
