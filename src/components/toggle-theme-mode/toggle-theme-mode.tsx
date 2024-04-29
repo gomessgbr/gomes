@@ -6,7 +6,6 @@ import { Moon, Sun } from "lucide-react";
 
 export function ToggleThemeMode() {
   const { setTheme, theme } = useTheme();
-  console.log("vamo vê sá porra", theme);
   return (
     <Button
       variant="outline"

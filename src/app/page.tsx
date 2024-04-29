@@ -1,5 +1,9 @@
-import { HeaderNav, ProfileArea } from "@/components";
-import { ExpertisesSession } from "@/components/expertises-session/expertieses-session";
+import {
+  HeaderNav,
+  ProfileArea,
+  ProjectsSession,
+  ExpertisesSession,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -7,6 +11,7 @@ export default function Home() {
       <HeaderNav />
       <ProfileArea />
       <ExpertisesSession />
+      <ProjectsSession />
     </>
   );
 }
