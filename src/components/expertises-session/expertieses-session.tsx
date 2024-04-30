@@ -27,7 +27,7 @@ import tanStackIcon from "../../assets/icons/tanstack-icon.png";
 
 export function ExpertisesSession() {
   return (
-    <div className="grid place-items-center gap-8 py-12 px-12 border-">
+    <div className="grid place-items-center gap-8 py-16 px-12 ">
       <h2 className="text-5xl text">Habilidades</h2>
       <div className="grid grid-flow-col grid-rows-4 place-items-center gap-8">
         <div>
