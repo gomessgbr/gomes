@@ -4,3 +4,4 @@ export * from "./profile-area/profile-area";
 export * from "./about-me/about-me";
 export * from "./projects-session/projects-session";
 export * from "./expertises-session/expertieses-session";
+export * from "./contact-me/contact-me";

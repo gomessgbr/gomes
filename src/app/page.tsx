@@ -3,6 +3,7 @@ import {
   ProfileArea,
   ProjectsSession,
   ExpertisesSession,
+  ContactMe,
 } from "@/components";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <ProfileArea />
       <ExpertisesSession />
       <ProjectsSession />
+      <ContactMe />
     </>
   );
 }
