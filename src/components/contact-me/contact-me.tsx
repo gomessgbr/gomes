@@ -16,15 +16,30 @@ export function ContactMe() {
         </label>
       </form> */}
       <div className="flex gap-4 py-12">
-        <Button type="button" size="icon">
+        <a
+          href="https://www.linkedin.com/in/gabrigomes/"
+          target="_blank"
+          rel="noreferrer"
+          className="cursor-pointer border-2 p-2 rounded-sm"
+        >
           <Linkedin />
-        </Button>
-        <Button type="button" size="icon">
+        </a>
+        <a
+          href="https://github.com/gomessgbr"
+          target="_blank"
+          rel="noreferrer"
+          className="cursor-pointer border-2 p-2 rounded-sm"
+        >
           <Github />
-        </Button>
-        <Button type="button" size="icon">
+        </a>
+        <a
+          href="mailto:gabrielgomes98@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+          className="cursor-pointer border-2 p-2 rounded-sm"
+        >
           <AtSign />
-        </Button>
+        </a>
       </div>
     </div>
   );
